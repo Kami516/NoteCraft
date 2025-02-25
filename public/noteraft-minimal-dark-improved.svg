@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Dark theme background - transparent -->
+  
+  <!-- Central element - Connected Notes -->
+  <g transform="translate(300, 150)">
+    <!-- Central node - made larger and more visible -->
+    <rect x="-70" y="-45" width="140" height="90" rx="8" fill="#222222" stroke="#444444" stroke-width="2" />
+    <rect x="-55" y="-30" width="110" height="8" rx="2" fill="#555555" />
+    <rect x="-55" y="-15" width="70" height="8" rx="2" fill="#555555" />
+    <rect x="-55" y="0" width="100" height="8" rx="2" fill="#555555" />
+    <rect x="-55" y="15" width="80" height="8" rx="2" fill="#555555" />
+    <rect x="-55" y="30" width="50" height="8" rx="2" fill="#555555" />
+    
+    <!-- Connected nodes - positioned better with more space -->
+    <rect x="-190" y="-85" width="80" height="60" rx="8" fill="#222222" stroke="#444444" stroke-width="2" />
+    <rect x="-175" y="-70" width="50" height="6" rx="2" fill="#555555" />
+    <rect x="-175" y="-55" width="35" height="6" rx="2" fill="#555555" />
+    <rect x="-175" y="-40" width="45" height="6" rx="2" fill="#555555" />
+    
+    <rect x="110" y="-85" width="80" height="60" rx="8" fill="#222222" stroke="#444444" stroke-width="2" />
+    <rect x="125" y="-70" width="50" height="6" rx="2" fill="#555555" />
+    <rect x="125" y="-55" width="35" height="6" rx="2" fill="#555555" />
+    <rect x="125" y="-40" width="45" height="6" rx="2" fill="#555555" />
+    
+    <rect x="-190" y="25" width="80" height="60" rx="8" fill="#222222" stroke="#444444" stroke-width="2" />
+    <rect x="-175" y="40" width="50" height="6" rx="2" fill="#555555" />
+    <rect x="-175" y="55" width="35" height="6" rx="2" fill="#555555" />
+    <rect x="-175" y="70" width="45" height="6" rx="2" fill="#555555" />
+    
+    <rect x="110" y="25" width="80" height="60" rx="8" fill="#222222" stroke="#444444" stroke-width="2" />
+    <rect x="125" y="40" width="50" height="6" rx="2" fill="#555555" />
+    <rect x="125" y="55" width="35" height="6" rx="2" fill="#555555" />
+    <rect x="125" y="70" width="45" height="6" rx="2" fill="#555555" />
+    
+    <!-- Connection lines - brighter and thicker -->
+    <line x1="-70" y1="-15" x2="-110" y2="-55" stroke="#4A66F9" stroke-width="3" />
+    <line x1="70" y1="-15" x2="110" y2="-55" stroke="#6FD08C" stroke-width="3" />
+    <line x1="-70" y1="15" x2="-110" y2="55" stroke="#FFB546" stroke-width="3" />
+    <line x1="70" y1="15" x2="110" y2="55" stroke="#FF6B6B" stroke-width="3" />
+    
+    <!-- Color dots at connection points - larger -->
+    <circle cx="-70" cy="-15" r="6" fill="#4A66F9" />
+    <circle cx="70" cy="-15" r="6" fill="#6FD08C" />
+    <circle cx="-70" cy="15" r="6" fill="#FFB546" />
+    <circle cx="70" cy="15" r="6" fill="#FF6B6B" />
+  </g>
+</svg>

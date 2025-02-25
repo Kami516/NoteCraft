@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g transform="translate(200, 150)">
+    <!-- Center empty note -->
+    <rect 
+      x="-40" y="-40" 
+      width="80" height="80" 
+      rx="8" 
+      fill="#222222" 
+      stroke="#333333" 
+      stroke-width="2"
+    />
+    <!-- Lines inside center note -->
+    <line x1="-25" y1="-15" x2="25" y2="-15" stroke="#444444" stroke-width="2" />
+    <line x1="-25" y1="0" x2="15" y2="0" stroke="#444444" stroke-width="2" />
+    <line x1="-25" y1="15" x2="20" y2="15" stroke="#444444" stroke-width="2" />
+
+    <!-- Ghost notes with dashed borders -->
+    <!-- Top -->
+    <rect 
+      x="-25" y="-120" 
+      width="50" height="50" 
+      rx="6" 
+      fill="#222222" 
+      stroke="#4A66F9" 
+      stroke-width="2"
+      stroke-dasharray="4,4"
+      opacity="0.5"
+    />
+
+    <!-- Right -->
+    <rect 
+      x="60" y="-25" 
+      width="50" height="50" 
+      rx="6" 
+      fill="#222222" 
+      stroke="#6FD08C" 
+      stroke-width="2"
+      stroke-dasharray="4,4"
+      opacity="0.5"
+    />
+
+    <!-- Bottom -->
+    <rect 
+      x="-25" y="70" 
+      width="50" height="50" 
+      rx="6" 
+      fill="#222222" 
+      stroke="#FFB546" 
+      stroke-width="2"
+      stroke-dasharray="4,4"
+      opacity="0.5"
+    />
+
+    <!-- Left -->
+    <rect 
+      x="-110" y="-25" 
+      width="50" height="50" 
+      rx="6" 
+      fill="#222222" 
+      stroke="#FF6B6B" 
+      stroke-width="2"
+      stroke-dasharray="4,4"
+      opacity="0.5"
+    />
+
+    <!-- Connection dots -->
+    <circle cx="0" cy="-50" r="4" fill="#4A66F9" opacity="0.7" />
+    <circle cx="50" cy="0" r="4" fill="#6FD08C" opacity="0.7" />
+    <circle cx="0" cy="50" r="4" fill="#FFB546" opacity="0.7" />
+    <circle cx="-50" cy="0" r="4" fill="#FF6B6B" opacity="0.7" />
+
+    <!-- Connection lines -->
+    <line x1="0" y1="-40" x2="0" y2="-70" stroke="#4A66F9" stroke-width="2" stroke-dasharray="4,4" opacity="0.4" />
+    <line x1="40" y1="0" x2="60" y2="0" stroke="#6FD08C" stroke-width="2" stroke-dasharray="4,4" opacity="0.4" />
+    <line x1="0" y1="40" x2="0" y2="70" stroke="#FFB546" stroke-width="2" stroke-dasharray="4,4" opacity="0.4" />
+    <line x1="-40" y1="0" x2="-60" y2="0" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="4,4" opacity="0.4" />
+  </g>
+</svg>

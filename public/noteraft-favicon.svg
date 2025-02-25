@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" rx="30" fill="#4A66F9" />
+  
+  <!-- Stylized "N" letter -->
+  <path d="M60 50 L60 150 L90 120 L90 50 Z" fill="white" />
+  
+  <!-- Stylized "C" letter -->
+  <path d="M120 50 C90 50, 90 150, 120 150 L140 150 L140 130 L120 130 C110 130, 110 70, 120 70 L140 70 L140 50 Z" fill="white" />
+  
+  <!-- Pen/pencil element -->
+  <path d="M150 60 L170 40 L180 50 L160 70 Z" fill="#FFC107" />
+  <path d="M150 60 L130 80 L120 110 L150 80 Z" fill="#FFECB3" />
+</svg>
